@@ -549,6 +549,47 @@ h1 .thin{display:block;font-size:.46em;font-weight:300;color:var(--text-muted);l
 [data-theme="ide"] .term{display:none}
 [data-theme="tmux"] .term{display:none}
 [data-theme="man"] .term{display:none}
+[data-theme="dashboard"] .term{display:block}
+
+/* Terminal styling for Clean theme */
+[data-theme="clean"] .term{
+  background:#f8fafc;
+  border-color:#e2e8f0;
+  box-shadow:var(--shadow-lg);
+}
+[data-theme="clean"] .term-bar{
+  background:#f1f5f9;
+  border-color:#e2e8f0;
+}
+[data-theme="clean"] .term-body{
+  color:#334155;
+}
+[data-theme="clean"] .term-body .c{color:#00d4aa}
+[data-theme="clean"] .term-body .k{color:#2563eb}
+[data-theme="clean"] .term-body .m{color:#94a3b8}
+[data-theme="clean"] .term-body .s{color:#f59e0b}
+[data-theme="clean"] .term-body .ok{color:#00d4aa}
+[data-theme="clean"] .term-body .caret{background:#00d4aa}
+
+/* Terminal styling for Dashboard theme */
+[data-theme="dashboard"] .term{
+  background:#161b22;
+  border-color:#2d333b;
+  box-shadow:var(--shadow-lg);
+}
+[data-theme="dashboard"] .term-bar{
+  background:#1c2128;
+  border-color:#2d333b;
+}
+[data-theme="dashboard"] .term-body{
+  color:#e6edf3;
+}
+[data-theme="dashboard"] .term-body .c{color:#10b981}
+[data-theme="dashboard"] .term-body .k{color:#3b82f6}
+[data-theme="dashboard"] .term-body .m{color:#6e7681}
+[data-theme="dashboard"] .term-body .s{color:#f59e0b}
+[data-theme="dashboard"] .term-body .ok{color:#10b981}
+[data-theme="dashboard"] .term-body .caret{background:#10b981}
 .term-bar{display:flex;align-items:center;gap:7px;padding:11px 14px;border-bottom:1px solid var(--border);background:var(--bg-subtle)}
 .term-bar i{width:10px;height:10px;border-radius:50%;display:block}
 .term-bar i:nth-child(1){background:#ff5f57}.term-bar i:nth-child(2){background:#febc2e}.term-bar i:nth-child(3){background:#28c840}
